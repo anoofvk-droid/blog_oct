@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Isometra&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.travel-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 55px 45px;
+}
+header{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 0px;
+    /* z-index: 2s; */
+    color: rgb(2, 37, 108);
+    
+
+}
+.main-head{
+    font-family:Isometra;
+    font-size: 60px;
+    font-weight: 100;
+     line-height: 1;
+    letter-spacing: 10px;
+    margin-left: 6px;
+}
+.sub-head{
+    font-family: Isometra;
+    font-size: 60px;
+    font-weight: 50;
+     line-height:1;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    margin-left: -70px;
+
+}
+#travel-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    align-items:start;
+}
+.travel-img {
+    min-width: 0%;
+    margin-left: 40px;
+}
+.travel-img img{
+     display: block;
+    width: 90%;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    /* transition: transform 1s ease; */
+
+}
+/* .travel-img img:hover{
+    transform: scale(1); */
+
+
+.travel-img h2{
+    font-family: Playfair Display ;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: rgb(2, 37, 108);
+}
+.travel-img p{
+    font-family:initial;
+    font-size: 14px;
+    line-height: 1.8;
+    color:black;
+    margin-bottom: 15px;
+
+}
+.img-1{
+    margin-top:-150px;
+}
+.img-2{ 
+    margin-top: -80px;
+
+}
+.img-3{
+    margin-top: -150px;
+}
